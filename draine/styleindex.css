@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+body {
+    background: black;
+    color: #ff00f5;
+    background-size: cover;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50.2%); /* ghetto fix */
+    text-align: center;
+}
+
+.main a {
+    color: #ff00f5;
+    text-decoration: none;
+}
+
+
+
+.main a:hover {
+    color: #ff00f5;
+}
+
+.main pre {
+    font-size: 25px;
+    background: linear-gradient(to bottom, #ff00f5, darkblue);
+    background-size: 100% 92%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    user-select: none;
+}
+
+.main input {
+    display: block;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
+    width: 80%;
+    min-height: 250px;
+}
+
+.main input[type="text"], .main input[type="password"] {
+    font-family: 'Cutive Mono', monospace;
+    background: transparent;
+    border: 1px solid #ff00f5;
+    padding: 10px;
+    margin: 15px;
+    width: 350px;
+    color: #ff00f5;
+    outline: 0;
+}
+
+.main input[type="submit"] {
+    font-family: 'Cutive Mono', monospace;
+    background: transparent;
+    border: 1px solid #ff00f5;
+    padding: 10px;
+    margin: 15px;
+    width: 350px;
+    cursor: pointer;
+    text-align: center;
+    color: #ff00f5;
+    outline: 0;
+}
+
+.info {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 240px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: -69;
+}
+
+.info a {
+    display: block;
+}
+
+.controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.user-controls {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a[href^="#"], a[href^="h"], a[href^="/"] {
+    text-decoration: none;
+    color: #ff00f5;
+}
+
+a[href^="#"]:hover, a[href^="h"]:hover, a[href^="/"]:hover {
+    color: #ff00f5;
+}
+
+.login {
+    width: 400px;
+    background-color: #ff00f5;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: #ff00f5;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  z-index: 1050!important;
+  height: 50px;
+  border: 1px solid #ff00f5;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.login form input[type="submit"] {
+  width: 100%;
+  z-index: 1050!important;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #000;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ff00f5;
+  transition: background-color 0.2s;
+}
+
+.login form input[type="submit"]:hover {
+  background-color: #000;
+    transition: background-color 0.2s;
+}
+
+
+a, a:link, a:hover, a:focus, a:active {
+
+color: #ff00f5;
+  
+}
+  
+li{
+    display: inline-block;
+}
+  
+li a {
+    text-decoration: none;
+    color:  #ff00f5 ;
+}
+  
+.cool-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:  #ff00f5 ;
+    transition: width .3s;
+}
+  
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}

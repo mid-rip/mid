@@ -1,0 +1,96 @@
+ 
+body {
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+     text-align: center;
+   background-image: url("../ostblockinkasontour.files.wordpress.com/2011/11/feuer-himmel.jpg");
+     color: #FFF;
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .video-background {
+        display: none;
+    }
+    
+    body {
+        text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+     text-align: center;
+        background-color: #000;
+        color: #FFF;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin: 0;
+    }
+} 
+
+a {
+	text-decoration: none;
+	font-family: 'Cutive Mono', monospace;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10pt;
+	z-index: 10;
+	color: #FFF;
+}
+
+a:hover {
+     font-weight: bold;
+}
+
+div {
+	font-size: 0.6875em;
+	font-family: 'Cutive Mono', monospace;
+	padding-top: 2.5%;
+	padding-left: 0.5%;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+	font-family: 'Cutive Mono', monospace;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10pt;
+	z-index: 10;
+	color: #FFF;
+}
+
+
+.video-background {
+	background: #000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+	position: fixed;
+	top: 0;
+    width: 500%;
+	left: -200%;
+	pointer-events: none;
+}
+
+.ytplayer {
+	pointer-events: none;
+}

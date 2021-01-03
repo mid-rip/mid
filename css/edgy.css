@@ -75,3 +75,12 @@ b {
     text-decoration: none;
     font-size: 25px;
 }
+
+
+
+b {
+    color: inherit;
+    text-decoration: none;
+    font-size: 32px;
+}
+
